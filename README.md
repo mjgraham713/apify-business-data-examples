@@ -38,3 +38,7 @@ Other workflows can be run through the Apify API, Console tasks, or compatible i
 ## Questions and issues
 
 For an Actor runtime issue, use the Issues tab on its Apify listing and include the run ID and sanitized inputs. Do not post tokens, private datasets or personal contact details. For an error in these example scripts, open a GitHub issue.
+
+## First-run permissions
+
+Thomasnet and 10times start a separately billed source Actor; Maps search does too. Open the linked Console example first and review any permission request before using the API script. If an API call returns HTTP 403, check the token and the Actor permission approval in Console. Approval is a one-time account action, not something the script bypasses.
